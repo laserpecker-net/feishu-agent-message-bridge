@@ -1,0 +1,21 @@
+# ===================================================================
+#  Optional settings for the Windows SSH bootstrap package.
+#
+#  result_dir = where configure.ps1 writes result-<HOSTNAME>.txt
+#
+#  DEFAULT (this line commented out):
+#      result file goes next to this package (the folder you unzipped to)
+#      and falls back to %TEMP% if that folder is read-only.
+#
+#  Use this ONLY if every target machine can write to the same location,
+#  for example a share on YOUR OWN network that those machines can reach.
+#  Do NOT point this at a share the target machines cannot reach - the
+#  script would silently fall back and you would look for files that are
+#  not there. When in doubt, leave it commented out.
+#
+#  Examples:
+#      result_dir = \\their-nas\deploy\results
+#      result_dir = D:\ssh-results
+# ===================================================================
+
+# result_dir = \\YOUR-SHARE\path\results

@@ -1,0 +1,20 @@
+# ===================================================================
+#  示例公钥文件（打包时请改名为 keys.txt，并把下面的示例行换成真公钥）
+#
+#  安装包里的真名是 keys.txt；本文件只是模板，避免把某台机器的
+#  实际公钥写进仓库。示例行是注释状态：忘记替换时 configure.ps1
+#  会以 "keys.txt contains no usable key lines" 明确报错，而不是装一把假密钥。
+#
+#  规则：
+#    - 一行一把公钥
+#    - 空行忽略
+#    - # 开头是注释
+#    - 每行格式： <type> <base64> [comment]
+#
+#  警告：这些公钥授予的是【这台机器的管理员会话】。
+#  Windows OpenSSH 对 Administrators 组成员给的是完整提权令牌
+#  （不弹 UAC），所以这里每把私钥都等同于本机管理员口令。
+# ===================================================================
+
+# ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAA...REPLACE_WITH_YOUR_PUBKEY operator@example
+# ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAA...ANOTHER_KEY second-operator@example

@@ -1,0 +1,10 @@
+{
+  "name": "feishu-personal-assistant-sidecar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "长连接收事件（im.message.receive_v1）并转发到本机桥的 /v1/ingest",
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.40.0"
+  }
+}

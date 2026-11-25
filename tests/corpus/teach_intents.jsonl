@@ -1,0 +1,20 @@
+{"text": "把今天的 inbox 数量报给我。", "want": "task", "note": "真机 2026-11-05 15:48，被识别成「派活」但先进了候选"}
+{"text": "你能读什么？能不能改东西？", "want": "question", "note": "真机 15:49，旧版曾被误记为教材 t-0002"}
+{"text": "以后不要称呼我为「某总」，称呼我为「某哥」！", "want": "teaching", "note": "真机 15:50，旧版要求他二次确认才肯记"}
+{"text": "你笨笨的", "want": "complaint", "note": "真机 15:52"}
+{"text": "你蠢蠢的，你不像是 deepseek 的模型，你一点都不智能", "want": "complaint", "note": "真机 15:59"}
+{"text": "自检（bridge 2.0）：1+1 等于几？只回一行。", "want": "question", "note": "真机 17:35"}
+{"text": "把三个 csv 汇总成一张总表 summary.md（收入、成本按季度合计，最后一行给全年合计）。这是第 1 步：先只做汇总文件，不要贴内容，做完告诉我文件和前三行，剩下的等我", "want": "task", "note": "真机 18:13"}
+{"text": "这是第 2 步：把这四个季度合计（Q1、Q2、Q3、累计）做成一个 4 行的表格，追加到 summary.md 末尾，并把整张表贴给我。", "want": "task", "note": "真机 18:19"}
+{"text": "这是第 3 步（最后一步）：把同样的四行汇总另存成 summary.csv（纯 CSV，带表头），做完只告诉我文件路径和 CSV 的最后一行。", "want": "task", "note": "真机 18:21"}
+{"text": "再补一件（这件做完这个活就收尾）：把 summary.md 和 summary.csv 的路径与四行汇总写成 report.txt，只回我文件路径。", "want": "task", "note": "真机 18:24"}
+{"text": "把 17 和 25 相加，只回一个数字。", "want": "task", "note": "真机 18:42"}
+{"text": "把 11 和 31 相加，只回一个数字。", "want": "task", "note": "真机 18:57"}
+{"text": "复盘", "want": "command", "note": "真机 18:59"}
+{"text": "把 21 和 21 相加，只回一个数字。", "want": "task", "note": "真机 19:00"}
+{"text": "问：把 33 和 44 相加 只回一个数字。", "want": "question", "note": "真机 20:55"}
+{"text": "问：把 55 和 66 相加 只回一个数字。", "want": "question", "note": "真机 20:56"}
+{"text": "帮我打开我系统的 UU APP", "want": "task", "note": "真机 22:03，被求助门禁挡掉、没有执行"}
+{"text": "你傻啦", "want": "complaint", "note": "真机 22:05"}
+{"text": "你真傻了", "want": "complaint", "note": "真机 22:10"}
+{"text": "把 33 和 44 相加，只回一个数字，别的话不要说。", "want": "task", "note": "同句式改写，用来测「不要」不被误判成教材"}

@@ -1,0 +1,50 @@
+# Local indexes, caches, and generated files
+.codegraph/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Local runtime, credentials, and env files
+.env
+.env.*
+*.pem
+*.key
+auth.json
+config.json
+consumer-journal/
+consumer-state/
+agent-runs/
+codex-runs/
+
+# 本地一次性笔记/评审产物：不进仓库，避免下一次维护把它们当成现行文档
+acceptance/
+coordination/
+reviews/
+CHECKPOINT.md
+*-REVIEW-*.md
+FIXES-*.md
+REPAIRS*.md
+SUBSCRIPTION-*.md
+CURSOR-SUBSCRIBER*.md
+
+# Local ops state (attention watcher)
+var/
+
+# Local evidence snapshots (contain the operator's own open_id / stray artifacts)
+research/
+draft_*_folder/
+
+# Windows 发行包产物（build artifact，由 dist/wsl2/pack-windows.sh 生成）
+# 向导源码在 tools/windows/installer/（dist/ 只放产物，别混）
+dist/windows/
+
+# 同事机台账：含同事姓名与飞书 open_id，只在本机，绝不进仓库。
+# 仓库只保留格式模板 docs/windows-hosts.example.csv；初始化/重建见 docs/windows-hosts.md。
+docs/windows-hosts.csv
+
+# 离线 SSH 一键包里的微软 MSI（6.9 MB 二进制，不进 git；复原见 tools/windows/ssh-bootstrap/NOTES.md）
+tools/windows/ssh-bootstrap/*.msi

@@ -1,0 +1,2 @@
+name,feishu_user,feishu_open_id,machine,magicdns,tailscale_ip,ssh_user,wsl_distro,wsl_user,os,deployed_at,release,key_expiry,status,notes
+示例同事,示例飞书名,ou_example000000000000000000000000,example-win,example-win.tailxxxx.ts.net,100.64.0.1,winuser,Ubuntu,wsluser,Windows 11 家庭版 build 26100,2026-11-05,0000000000000000,2027-05-04,待部署,模板行不写真实数据；字段说明见 docs/windows-hosts.md
